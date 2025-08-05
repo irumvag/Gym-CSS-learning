@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 20px;
+}
+.container{
+    /* margin: 20px; */
+    display: grid ;
+    /* repeat(3,1fr) */
+    /* 2fr 1fr 1fr 1fr */
+    grid-template-columns:50px 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;
+    gap: 10px;
+     
+}
+.item1,.item2,.item3,.item4,.item5,.item6{
+    width: inherit;
+    height: inherit;
+    background-color: burlywood;
+}
