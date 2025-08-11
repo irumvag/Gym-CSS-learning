@@ -11,7 +11,7 @@ body{
     /* repeat(3,1fr) */
     /* 2fr 1fr 1fr 1fr */
     grid-template-columns:50px 50px auto 50px 40px;
-    grid-template-rows: 25% 100px auto;
+    grid-template-rows: 25% 100px auto 60px;
     gap: 10px;
      
 }
@@ -20,3 +20,4 @@ body{
     height: inherit;
     background-color: burlywood;
 }
+    
